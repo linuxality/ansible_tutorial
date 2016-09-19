@@ -10,6 +10,13 @@
 
 # Ex 1: Ungrouped hosts, specify before any group headers.
 
+localhost
+server1
+server2.example.com
+
+[mygroup]
+localhost
+
 #green.example.com
 #blue.example.com
 #192.168.100.1
